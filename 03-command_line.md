@@ -20,7 +20,14 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd
+mkdir
+rm -r
+touch
+rm 
+mv 
+ls -a
+cp
 
 ---
 
@@ -35,15 +42,20 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > ls: list all file in the current directory
+ls -a: list all contents in the working directory, including hidden files and directios
+ls -l: list all contents of a directory in long format 
+ls -lh: print sizes in human-readable format 
+ls -lah: list all content in the working directoris, including hidden files and directories, in long format and print sizes in human_readable format
+ls -t: sort by modification time, newest first
+ls -Glp: ?
 ---
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls, ls -a, ls -t, ls -l, ls -alt
 
 ---
 
@@ -51,7 +63,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > The xargs command in UNIX is a command line utility for building an execution pipeline from standard input. Whilst tools like grep can accept standard input as a parameter, many other tools cannot. Using xargs allows tools like echo and rm and mkdir to accept standard input as arguments.
+echo 'one two three' | xargs mkdir
+ls
+one two three
+ 
+
 
  
 
