@@ -2,7 +2,7 @@
 
 >>
 ```python
-  resp = nsfg.ReadFemResp()  
+  resp = nsfg.ReadFemResp()
   pmf = thinkstats2.Pmf(resp.numkdhh, label = 'actual')  
   def BiasedPmf(pmf, label = 'Biased'):  
     new_pmf = pmf.Copy (label = label)  
