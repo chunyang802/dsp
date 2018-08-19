@@ -1,8 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->>  
-
-    def CohentEffectSize(group1,group2):
+>>   def CohentEffectSize(group1,group2):
       diff = group1.mean()-group2.mean()
       var1 = group1.var()
       var2 = group2.var()
@@ -13,11 +11,10 @@
     
    
    
-    preg = nsfg.ReadFemPreg()
-    live = preg[preg.outcome == 1]
-    firsts = live[live.birthord == 1]
-    others = live[live.birthord !=1]
-    
-    
-    birth_weight_diff = CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
-    pregnancy_length_diff = CohenEffectSize(firsts.prglngth, others.prglngth)
+ preg = nsfg.ReadFemPreg()
+ live = preg[preg.outcome == 1]
+ firsts = live[live.birthord == 1]
+ others = live[live.birthord !=1]
+  
+  birth_weight_diff = CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
+  pregnancy_length_diff = CohenEffectSize(firsts.prglngth, others.prglngth)
