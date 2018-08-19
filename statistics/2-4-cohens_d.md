@@ -8,13 +8,9 @@
       pooled_var = (n1*var1+n2*var2)/(n1+n2)
       pooled_std = math.sqrt(pooled_var)
       d = diff/pooled_std
-    
-   
-   
  preg = nsfg.ReadFemPreg()
  live = preg[preg.outcome == 1]
  firsts = live[live.birthord == 1]
  others = live[live.birthord !=1]
-  
-  birth_weight_diff = CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
-  pregnancy_length_diff = CohenEffectSize(firsts.prglngth, others.prglngth)
+ birth_weight_diff = CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
+ pregnancy_length_diff = CohenEffectSize(firsts.prglngth, others.prglngth)
