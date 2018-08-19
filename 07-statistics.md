@@ -91,7 +91,6 @@ The probability of fraternal twin = P(F) = 1/125
 The probability of identical twen = P(I) = 1/300
 The probability to have twin brother given that it is fraternal is P(TB|F) = 1/2 * 1/2 =1/4
 The probability to have twin brother given that it is identical is P(TB|I) = 1/2
-
 Based on Baye's theorem P(I|TB) = P(I and PB) /P(TB) = 1/2*1/300/(1/4*1/125 + 1/2*1/300) = 5/11
 
 ---
@@ -103,7 +102,6 @@ How do frequentist and Bayesian statistics compare?
     1. Both hypothesis and data have probabilities
     2. Require one to construct and assign a 'subjective prior'
     3. Maybe computationally intense
-
     Frequentist inference
     1. No prior or posterior probability of a hypothesis 
     2. Less computationally intense
