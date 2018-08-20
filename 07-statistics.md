@@ -98,13 +98,13 @@ Based on Baye's theorem P(I|TB) = P(I and PB) /P(TB) = 1/2*1/300/(1/4*1/125 + 1/
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> Bayesian inference
-    1. Both hypothesis and data have probabilities
-    2. Require one to construct and assign a 'subjective prior'
-    3. Maybe computationally intense
-    Frequentist inference
-    1. No prior or posterior probability of a hypothesis 
-    2. Less computationally intense
+>> Bayesian inference  
+    1. Both hypothesis and data have probabilities  
+    2. Require one to construct and assign a 'subjective prior'  
+    3. Maybe computationally intense  
+    Frequentist inference  
+    1. No prior or posterior probability of a hypothesis  
+    2. Less computationally intense  
 
 ## <a name="section-e"></a>5.  Optional Exercises
 
