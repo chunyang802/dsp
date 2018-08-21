@@ -30,4 +30,5 @@ sample_median = Median(sample)
 skewness = Skewness(sample)
 pearsonmedianskewness= PearsonMedianSkewness(sample)
 below_mean = cdf.Prob(sample_mean)
-below_mean'''
+below_mean
+'''
