@@ -32,3 +32,4 @@ pearsonmedianskewness= PearsonMedianSkewness(sample)
 below_mean = cdf.Prob(sample_mean)
 below_mean
 ```
+The percentage of household that has income below the mean depends on the assumption that the upper limit of the income is 1 million. Apparently, if the upper limit is higher, say 10 million, there will be a higher percentage of household income that fall below the mean. 
