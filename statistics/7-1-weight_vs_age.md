@@ -12,3 +12,9 @@ weights = live.totalwgt_lb
 thinkplot.Scatter(age, weights, alpha = 1.0)
 thinkplot.Config(xlabel = 'age', ylabel ='weight', xlim =[15, 45], ylim= [0,15], legend = False)
 ```
+Then calculate correlatioin 
+```python
+Corr(age, weights)
+SpearmanCorr(age, weights)
+```
+Bin the preganancy age, and group the weight by the bins. Plot the weight percentile vs. the age. 
